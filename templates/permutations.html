@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Permutations</title>
+    <link href="../static/css/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="permutations">
+      <br><br>
+      <p>Brion Gysin altered the cut-up technique to produce what he called permutation poems in which a single phrase was repeated several times with the words rearranged in a different order with each reiteration. An example of this is "I don't dig work, man/Man, work I don't dig." Many of these permutations were derived using a random sequence generator in an early computer program written by Ian Sommerville.</p>
+      <p>This is an updated version of that program.</p>
+      <br>
+
+      <form action="{{url_for('permutation_results')}}" method="POST">
+        <input title="Word 1" placeholder="Enter word 1" type="string" name="word_1">
+        <input title="Word 2" placeholder="Enter word 2" type="string" name="word_2"> <br>
+        <input title="Word 3" placeholder="Enter word 3" type="string" name="word_3">
+        <input title="Word 4" placeholder="Enter word 4" type="string" name="word_4"> <br>
+        <input title="Word 5" placeholder="Enter word 5" type="string" name="word_5">
+        <input title="Word 6" placeholder="Enter word 6" type="string" name="word_6"> <br>
+        <button type="submit"> Permutate </button>
+      </form>
+
+      <br>
+      <p> The Permutation Generator is also available as a standalone app.</p>
+      <a href="/static/Permutate.exe">Download Permutation Generator for Windows</a><p>
+      <a href="https://github.com/jimimcdonald/permutation-generator">Access code on Github</a>
+    </div>
+  </body>
+</html>
