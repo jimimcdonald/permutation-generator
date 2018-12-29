@@ -1,4 +1,4 @@
-# permutation-generator
+# Permutation Generator
 
 This is an app based on the original permutation computer program designed by Ian Sommerville
 which was used to create Brion Gysin's 'Permutation Poems'
